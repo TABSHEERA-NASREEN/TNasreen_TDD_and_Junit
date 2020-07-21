@@ -14,27 +14,27 @@ public class RemoveATest {
 		remove=new RemoveA();	
 	}
 	@Test
-	public void oneA0test()
+	public void testOneA()
 	{
 		assertEquals("BCD",remove.removeAinFirst2("ABCD"));
 	}
 	@Test
-	public void twoAtest()
+	public void testTwoA()
 	{
 		assertEquals("CD",remove.removeAinFirst2("AACD"));
 	}
 	@Test
-	public void oneA1test()
+	public void testOneAat1()
 	{
 		assertEquals("BCD",remove.removeAinFirst2("BACD"));
 	}
 	@Test
-	public void noAtest()
+	public void testNoA()
 	{
 		assertEquals("BBAA",remove.removeAinFirst2("BBAA"));
 	}
 	@Test
-	public void test()
+	public void testtwoAs()
 	{
 		assertEquals("BAA",remove.removeAinFirst2("AABAA"));
 	}
